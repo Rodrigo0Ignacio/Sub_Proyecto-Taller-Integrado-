@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/Index-estilos.css">
+   
+    <title>NorVaz</title>
+</head>
+<body>
+    <!--VENTANA FLOTANTE-->
+    <div class="flotante" id="ventana">
+        <div id="cerrar">
+           <a href="javascript:cerrar()"><img src="../img/boton.png"></a>
+
+           <input class="txt" type="email" name="recuperarContrasena" value="" placeholder="Ingresa el Email Asociado a la cuenta"> <br/> <br/>
+           <button name="VerificarCorreo" onclick=" "> Recuperar Contraseña</button>
+
+        </div>
+    </div>
+
+    <div id="contenedor">
+        <div id="header">
+
+            <div id="logo">
+                <img src="../img/logo_destornillador.PNG" alt="">
+            </div>
+
+            <div id="CuentaUser">
+                <ul>
+                    <li><img class="central" src="../img/usuario.png" alt=""></li>
+                </ul>
+                
+                <ul>
+                    <li><a href="InicioSesion.html"> Iniciar Sesion</a></li>
+                    <li><a href=" "> Crear una cuenta</a></li>
+                    <li><a href="javascript:abrir()"> olvidaste tu contraseña</a></li>
+                </ul>
+                
+
+            </div>
+
+        </div>
+        <div id="nav1">
+            <nav class="navegacion">
+                <ul class="menu">
+                    <li><a href="index.html">Inicio </a></li>
+                    <li><a href="Servicios.html">Servicios </a></li>
+                    <li><a href="index.html">Productos </a>
+                        <ul class="submenu">
+                            <li><a>Mesas</a></li>
+                            <li><a>Sillas</a></li>
+                            <li><a>Escritorios</a></li>
+                            <li><a>Otros</a></li>
+
+                        </ul>
+                        
+                    </li>
+                    <li><a href="Ofertas.html">Ofestas </a></li>
+                    <li><a href="Contactanos.html"> Contactanos </a></li>
+                </ul>
+            </nav>      
+        </div>
+
+        <div id="publicidad">
+          
+
+        </div>
+        <div id="contenido">
+            <article class="producto">
+
+                <div id="imagenProducto">
+                    <img src="../img/mueble-toto.jpg" alt="">
+
+                </div>
+                
+                <div id="detalles">
+                    <ul>
+                        <li>Codigo:</li>
+                        <li>Precio:</li>
+                        <li>Tipo: </li>
+                        <li>Marca: </li>
+                        <li>Peso: </li>
+                        
+                    </ul>
+                </div>
+                <div id="Boton">
+                    <button> Agregar a la bolsa</button>
+
+                </div>
+                
+
+            </article>
+            <article class="producto">
+                
+                <div id="imagenProducto">
+                    <img src="../img/mueble-toto.jpg" alt="">
+
+                </div>
+                
+                <div id="detalles">
+                    <ul>
+                        <li>Codigo:</li>
+                        <li>Precio:</li>
+                        <li>Tipo: </li>
+                        <li>Marca: </li>
+                        <li>Peso: </li>
+                        
+                    </ul>
+                </div>
+                <div id="Boton">
+                    <button> Agregar a la bolsa</button>
+
+                </div>
+
+            </article>
+            <article class="producto"> 
+                
+                <div id="imagenProducto">
+                    <img src="../img/mueble-toto.jpg" alt="">
+
+                </div>
+                
+                <div id="detalles">
+                    <ul>
+                        <li>Codigo:</li>
+                        <li>Precio:</li>
+                        <li>Tipo: </li>
+                        <li>Marca: </li>
+                        <li>Peso: </li>
+                        
+                    </ul>
+                </div>
+                <div id="Boton">
+                    <button> Agregar a la bolsa</button>
+
+                </div>
+
+            </article>
+            <article class="producto">
+                
+                <div id="imagenProducto">
+                    <img src="../img/mueble-toto.jpg" alt="">
+
+                </div>
+                
+                <div id="detalles">
+                    <ul>
+                        <li>Codigo:</li>
+                        <li>Precio:</li>
+                        <li>Tipo: </li>
+                        <li>Marca: </li>
+                        <li>Peso: </li>
+                        
+                    </ul>
+                </div>
+                <div id="Boton">
+                    <button> Agregar a la bolsa</button>
+
+                </div>
+
+            </article>
+
+            <article class="producto">
+                
+                <div id="imagenProducto">
+                    <img src="../img/mueble-toto.jpg" alt="">
+
+                </div>
+                
+                <div id="detalles">
+                    <ul>
+                        <li>Codigo:</li>
+                        <li>Precio:</li>
+                        <li>Tipo: </li>
+                        <li>Marca: </li>
+                        <li>Peso: </li>
+                        
+                    </ul>
+                </div>
+                <div id="Boton">
+                    <button> Agregar a la bolsa</button>
+
+                </div>
+
+            </article>
+
+        </div>
+
+        <div id="fooster">
+            datos 
+
+        </div>
+    </div>
+    
+</body>
+<script>
+    function abrir(){
+        document.getElementById("ventana").style.display ="block";
+    }
+
+    function cerrar(){
+        document.getElementById("ventana").style.display="none";
+    }
+</script>
+</html>
