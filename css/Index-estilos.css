@@ -24,14 +24,76 @@ body{
   /*  background: rgb(10, 134, 72); */
 }
 
-#publicidad{
-    height: 14%;
-    padding: 3px;
-  /*  background: #0b992f; */
-    padding: 3px;
-    border: #333333 solid;
+/*al iniciar una sesion aparecera esta barra*/
+#barra-usuario{
+    height: 4%;
+    display: null; /* importante al poner el display en none la barra desaparece*/
 
 }
+.navegacionUser{
+
+    width: 90%;
+	margin: 2px auto;
+    background: #e6dddd;
+    border-radius: 15px;
+    border:black solid;
+}
+
+
+.navegacionUser ul{
+    list-style: none;
+    border-radius: 5px;
+}
+
+.menu2 > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu2 > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: #353535;
+	text-decoration: none;
+}
+
+.menu2 li a:hover{
+	color: #CE7D35;
+	transition: all .3s;
+}
+
+.menu2 img{
+    width: 20px;
+    height: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+/*Publicidad apartado de fotos en movimiento*/
+#publicidad{
+    margin: auto;
+    background-color: white;
+    width: 95%;
+    padding: 30px;
+    height: 14%;
+    border: solid black;
+  }
+ 
+
+  
+  
+
+/*--------------------------*/
+
+
+
+
+
+
+
+
+
+
 
 #contenido{
     padding: 3px;
@@ -187,6 +249,7 @@ border-radius: 5px;
     color: blanchedalmond
 
 }
+
 
 
 
